@@ -1,0 +1,24 @@
+body{
+	font-family: "微軟正黑體", "Microsoft JhengHei", Arial, Verdana, sans-serif;
+}
+
+.table td{
+    vertical-align: middle;
+}
+
+.table th, .table td{
+    text-align: center;
+}
+
+.icon-green {
+    color: #00e000;
+}
+
+.icon-red {
+    color: red;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+}
