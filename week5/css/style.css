@@ -1,0 +1,101 @@
+body {
+    font-family: "微軟正黑體", "Microsoft JhengHei", Arial, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.cart-link {
+    position: relative;
+}
+
+.cart-num {
+    position: absolute;
+    top: 3px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: 0;
+}
+
+.origin-price{
+	color: #c4c4c4;
+}
+
+.price{
+	font-size: 20px;
+	color: red;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.table td{
+    vertical-align: middle;
+}
+
+.table th, .table td{
+    text-align: center;
+}
+
+.cart-list {
+    background-color: #fff;
+}
+
+.cart-list thead {
+    background-color: #5694d7;
+    color: #fff;
+}
+
+.quantity {
+    width: 60px;
+}
+
+.order-list {
+    background-color: #fff;
+    border-top: 3px solid #3c8dbc;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.order-title {
+    background-color: #fff;
+
+}
+
+.msg-color {
+    color: #636363;
+}
+
+@media screen and (min-width: 991px) {
+    .cart-num {
+        right: -10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .product-img {
+        align-items: center;
+    }
+
+    .product-img .card-img{
+        width: 208px;
+        height: 280px;
+    }
+}
